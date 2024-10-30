@@ -1,0 +1,25 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на следующую строку */
+    justify-content: center; /* Центрируем элементы по горизонтали */
+    align-items: center; /* Центрируем элементы по вертикали */
+    height: 100vh; /* Высота контейнера равна высоте окна */
+}
+
+.grid-item {
+    width: 50px; /* Ширина ячейки */
+    height: 50px; /* Высота ячейки */
+    margin: 5px; /* Отступы между ячейками */
+}
+
+.grid-item.high {
+    background-color: red; /* Цвет для высоких значений */
+}
+
+.grid-item.medium {
+    background-color: yellow; /* Цвет для средних значений */
+}
+
+.grid-item.low {
+    background-color: green; /* Цвет для низких значений */
+}

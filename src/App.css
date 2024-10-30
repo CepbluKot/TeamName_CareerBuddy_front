@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Retention Rate Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-gap: 5px;
+  justify-content: center;
+}
+
+.grid-item {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.high {
+  background-color: #4CAF50;
+}
+
+.medium {
+  background-color: #FFEB3B;
+}
+
+.low {
+  background-color: #F44336;
+}
+
+/* Retention Rate Legend */
+.legend {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.legend-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.legend-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+/* In-house Staff Placeholder */
+.staff-section {
+  margin-top: 40px;
+}
+
+.staff-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.staff-list {
+  height: 100px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  color: #777;
+}
